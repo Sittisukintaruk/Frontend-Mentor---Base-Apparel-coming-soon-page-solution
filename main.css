@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .filter-none {
+    filter: none;
+  }
+  .background-gradient-button {
+    background: linear-gradient(135deg, #f8bfbf 1.25%, #ee8c8c 98.75%);
+  }
+}
